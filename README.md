@@ -1,2 +1,2 @@
-# RetroUser32.github.io
-Trabajo practico obligatorio e integrador bootstrap con integracion en github pages
+# Flyone185.github.io
+En este repositorio se suben los archivos correspondientes a la practica obligatoria con bootstraap
