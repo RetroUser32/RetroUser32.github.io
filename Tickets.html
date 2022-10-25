@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--PRELOADER-->
+    <link rel="stylesheet" href="/Styles/RepoWebAIO/PreLoader.css">
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>Comrar Tickets</title>
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-md bg-dark navbar-light">
+            <div class="container-fluid d-flex justify-content-md-start justify-content-sm-arround">
+                <a class="nav-link p-0" href="#"><img src="../Parctica Integradora Bootstrap/Images/codoacodoLogo.webp"
+                        width="140px"></a>
+                <p class="nav-link text-light p-0" style="font-size: calc(2vw + 1vh) ;">Conf. Buenos Aires</p>
+                <div class="dropstart d-sm-flex d-md-none">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark text-center" style="font-size: calc(2vh + 1vw);">
+                        <li class="nav-item">
+                            <a class="dropdown-item" href="#la_conferencia">La conferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="dropdown-item" href="#oradores">Oradores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="dropdown-item" href="#lugar_y_fecha">El lugar y la fecha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="dropdown-item" href="#conviertete_en_orador">Conviertete en Orador</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="dropdown-item" href="../Parctica Integradora Bootstrap/Tickets.html">Comprar
+                                tickets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container-fluid d-flex d-md-flex d-none justify-content-end">
+                <ul class="navbar-nav text-center" style="font-size: calc(1vh + 0.5vw);">
+                    <li class="nav-item ">
+                        <a class="nav-link text-light" href="#la_conferencia">La conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#oradores">Oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#lugar_y_fecha">El lugar y la fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#conviertete_en_orador">Conviertete en Orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="../Parctica Integradora Bootstrap/Tickets.html">Comprar
+                            tickets</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <section>
+            <div class="container fluid">
+                <div class="row row-cols-auto justify-content-center text-center">
+                    <div class="col mt-5 mb-5">
+                        <div class="card border-primary mb-1 " style="width: 15rem;height:15rem;">
+                            <div class="card-body text-dark d-grid justify-content-center align-items-center">
+                                <h5 class="card-title">Estudiante</h5>
+                                <p class="card-text">Tienen un descuento</p>
+                                <h5 class="card-title">80%</h5>
+                                <p class="card-text">*presentar documentacion</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-5 mb-5">
+                        <div class="card border-success mb-1" style="width: 15rem;height:15rem;">
+                            <div class="card-body text-dark d-grid justify-content-center align-items-center">
+                                <h5 class="card-title">Trainee</h5>
+                                <p class="card-text">Tienen un descuento</p>
+                                <h5 class="card-title">50%</h5>
+                                <p class="card-text">*presentar documentacion</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mt-5 mb-5">
+                        <div class="card border-warning mb-1" style="width: 15rem;height:15rem;">
+                            <div class="card-body text-dark d-grid justify-content-center align-items-center">
+                                <h5 class="card-title">Junior</h5>
+                                <p class="card-text">Tienen un descuento</p>
+                                <h5 class="card-title">15%</h5>
+                                <p class="card-text">*presentar documentacion</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center fs-4">venta</p>
+            </div>
+        </section>
+        <section>
+            <form class="container-fluid row gap-3 justify-content-center mb-5">
+                <fieldset class="text-center fs-1">VALOR DE TICKET $200</fieldset>
+                <div class="container-fluid row">
+                    <div class="col-md-4 offset-2 col-8 mb-3">
+                        <input type="text" class="form-control previeneEnvio" placeholder="Nombre">
+                    </div>
+                    <div class="col-md-4 offset-md-0 col-8 offset-2">
+                        <input type="text" class="form-control previeneEnvio" placeholder="Apellido">
+                    </div>
+                </div>
+                <div class="container-fluid row">
+                    <div class="col-8 offset-2">
+                        <input type="email" id="Correo" class="form-control previeneEnvio" placeholder="Correo"></input>
+                    </div>
+                </div>
+                <div class="container-fluid row">
+                    <div class="col-md-4 offset-2 col-8 mb-3">
+                        <label class="form-label">Cantidad</label>
+                        <input type="number" pattern="[0-9]+" id="cantTickets" type="text" class="form-control previeneEnvio" placeholder="Cantidad">
+                    </div>
+                    <div class="col-md-4 offset-md-0 col-8 offset-2">
+                        <label class="form-label">Categoria</label>
+                        <select id="categoria" class="form-select previeneEnvio" aria-label="Default select example">
+                            <option value="0" selected>Ninguna</option>
+                            <option value="1">Estudiante</option>
+                            <option value="2">Trainee</option>
+                            <option value="3">Junior</option>
+                        </select>
+                    </div>
+
+                        <div class="col-8 offset-2 mt-4">
+                            <div class="alert alert-primary d-flex" role="alert">Total a Pagar: $<p id="cantTotal"></p></div>
+                        </div>
+                        <div class="col-8 offset-2 mt-4 text-danger fs-3 text-center">
+                            <label id="error"></label>
+                        </div>
+                </div>
+                <div class="container-fluid row">
+                    <div class="col-4 offset-2">
+                        <button type="submit" class="btn btn-success col-12">Borrar</button>
+                    </div>
+                    <div class="col-4">
+                        <button type="button" class="btn btn-success col-12" onclick="validaCampos()">Resumen</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <nav class="navbar navbar-expand-md" style="background: linear-gradient(90deg, #001530,#003f5d);">
+              <div class="container-fluid justify-content-center">
+                  <ul class="navbar-nav text-center"  style="font-size: calc(1vh + 0.5vw);">
+                      <li class="nav-item  mx-xl-4 mx-lg-3">
+                          <a class="nav-link text-light" href="#la_conferencia">Preguntas frecuentes</a>    
+                      </li>
+                      <li class="nav-item mx-xl-4 mx-lg-3">
+                          <a class="nav-link text-light" href="#oradores">Contáctanos</a>
+                      </li>
+                      <li class="nav-item mx-xl-4 mx-lg-3">
+                          <a class="nav-link text-light" href="#lugar_y_fecha">Prensa</a>
+                      </li>
+                      <li class="nav-item mx-xl-4 mx-lg-3">
+                          <a class="nav-link text-light" href="#conviertete_en_orador">Conferencias</a>
+                      </li>
+                      <li class="nav-item mx-xl-4 mx-lg-3">
+                          <a class="nav-link text-light" href="#comprar_tickets">Terminos y Condiciones</a>
+                      </li>
+                      <li class="nav-item mx-xl-4 mx-lg-3">
+                        <a class="nav-link text-light" href="#comprar_tickets">Privacidad</a>
+                      </li>
+                      <li class="nav-item mx-xl-4 mx-lg-3">
+                        <a class="nav-link text-light" href="#comprar_tickets">Estudiantes</a>
+                      </li>
+                  </ul>
+              </div>
+          </nav>
+          </footer>
+</body>
+<script src="../Parctica Integradora Bootstrap/Javascript/CalculoTotalTickets.js"></script>
+
+</html>
