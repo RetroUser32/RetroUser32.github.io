@@ -18,6 +18,10 @@ function validaCampos() {
             elemento.classList.add('border-danger', 'border-3')
             campovacio = true
         }
+        else if(elemento.type == 'number' && elemento.value<0){
+            campovacio = true
+            elemento.classList.add('border-danger', 'border-3')
+        }
         else {
             elemento.classList.remove('border-danger')
             elemento.classList.add('border-success', 'border-3')
