@@ -126,7 +126,7 @@
                 <div class="container-fluid row">
                     <div class="col-md-4 offset-2 col-8 mb-3">
                         <label class="form-label">Cantidad</label>
-                        <input type="number" pattern="[0-9]+" id="cantTickets" type="text" class="form-control previeneEnvio" placeholder="Cantidad">
+                        <input type="number" min=0 pattern="[0-9]" id="cantTickets" class="form-control previeneEnvio" placeholder="Cantidad">
                     </div>
                     <div class="col-md-4 offset-md-0 col-8 offset-2">
                         <label class="form-label">Categoria</label>
@@ -150,7 +150,7 @@
                         <button type="submit" class="btn btn-success col-12">Borrar</button>
                     </div>
                     <div class="col-4">
-                        <button type="button" class="btn btn-success col-12" onclick="validaCampos()">Resumen</button>
+                        <button type="submit" class="btn btn-success col-12" onclick="validaCampos()">Resumen</button>
                     </div>
                 </div>
             </form>
